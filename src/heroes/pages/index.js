@@ -1,0 +1,5 @@
+export * from './DC'
+export * from './Marvel'
+export * from './Inicio'
+export * from './Carrusel'
+export * from './Acordion'
