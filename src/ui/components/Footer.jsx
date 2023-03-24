@@ -12,27 +12,15 @@ function Footer() {
     {/* <!-- Section: Social media --> */}
     <section className="mb-4">
 
-      {/* <!-- Twitter --> */}
+      {/* <!-- linkedin --> */}
       <a
         className="btn text-dark btn-floating m-1"
        
-        href="https://twitter.com/diablodioshmiop"
+        href="https://www.linkedin.com/in/alex-cabral-951887231/"
         role="button"
         ><i className="fab fa-instagram"></i
       >
-      <img src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" width = '45' alt="" />
-      </a>
-
-     
-      {/* <!-- Instagram --> */}
-      <a
-        className="btn text-dark btn-floating m-1"
-       
-        href="https://www.instagram.com/iam._.ale.jsx/"
-        role="button"
-        ><i className="fab fa-instagram"></i
-      >
-      <img src="https://cdn.worldvectorlogo.com/logos/instagram-5.svg" width = '45' alt="" />
+      <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width = '45' alt="" />
       </a>
 
       {/* <!-- Github --> */}
@@ -53,10 +41,9 @@ function Footer() {
   <div className="text-center p-3" 
   
   >
-    © 2022 Copyright:
+    © 2023 Copyright:
     <a className="text-dark" href=""> Alex Cabral</a>
   </div>
-  {/* <!-- Copyright --> */}
 </div>
       </>
     );
