@@ -4,10 +4,9 @@ export const Login = () => {
   
 
 //// sig in with google------------------------------------------------------------
-
 const dispatch = useDispatch();
 
-const onGoogleSigIn = () =>{
+  const onGoogleSigIn = () =>{
 
   dispatch(startGoogleSingIn());
   
@@ -15,7 +14,6 @@ const onGoogleSigIn = () =>{
 
 return (
 <>
-
 <div className="fondo-login">
 <div className="h1 pt-5 ">
 

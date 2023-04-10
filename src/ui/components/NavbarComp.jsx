@@ -21,10 +21,7 @@ function BasicExample() {
 
 
     const onLogout = () => {
-dispatch(startLogout());
-
-
-       
+dispatch(startLogout()); 
     } 
 
    

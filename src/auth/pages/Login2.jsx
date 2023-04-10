@@ -38,7 +38,7 @@ const onLogin = () =>{
       <div className="cuadrado animate__animated animate__rubberBand col-8 col-md-8 col-lg-6 col-xl-5">
         <div className="" >
           <div className=" p-5 text-center">
-<img className = "usericon rounded rounded-5 mt-15px" src={localStorage.getItem('profilePic')} aling = "bottom" width = "100px" height = "100px" alt="" />
+           <img className = "usericon rounded rounded-5 mt-15px" src={localStorage.getItem('profilePic')} aling = "bottom" width = "100px" height = "100px" alt="" />
 
 
 
@@ -46,7 +46,7 @@ const onLogin = () =>{
           <div className="d-flex mb-5 justify-content-center align-items-center">
           
             <h1 className = "h1-name" >{localStorage.getItem('name')}</h1>
-           
+      
           <button  onClick = {onLogin} className = "btn btn-danger my-1"> Enter</button>
           </div>
         </div>
